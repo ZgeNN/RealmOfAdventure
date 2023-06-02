@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LootTable
   m_EditorClassIdentifier: 
   loots:
-  - thisLoot: {fileID: 0}
+  - thisLoot: {fileID: 3367055004900729993, guid: af34d6abab290574eae13c3cb0e8ee06, type: 3}
     lootChance: 3
-  - thisLoot: {fileID: 0}
+  - thisLoot: {fileID: 5870040625407085728, guid: 8b0bbe856be244c459b681110c061133, type: 3}
     lootChance: 70

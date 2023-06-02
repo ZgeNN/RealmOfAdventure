@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Log : Enemy {
 
-    private Rigidbody2D myRigidbody;
+    public Rigidbody2D myRigidbody;
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
@@ -25,7 +25,7 @@ public class Log : Enemy {
         CheckDistance();
 	}
 
-    void CheckDistance()
+    public virtual void CheckDistance()
     {
         if(Vector3.Distance(target.position, 
                             transform.position) <= chaseRadius
@@ -50,12 +50,12 @@ public class Log : Enemy {
         }
     }
 
-    private void SetAnimFloat(Vector2 setVector){
+    public void SetAnimFloat(Vector2 setVector){
         anim.SetFloat("Horizontal", setVector.x);
         anim.SetFloat("Vertical", setVector.y);
     }
 
-    private void changeAnim(Vector2 direction){
+    public void changeAnim(Vector2 direction){
         if(Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {
             if(direction.x > 0){
@@ -76,7 +76,7 @@ public class Log : Enemy {
         }
     }
 
-    private void ChangeState(EnemyState newState){
+    public void ChangeState(EnemyState newState){
         if(currentState != newState)
         {
             currentState = newState;

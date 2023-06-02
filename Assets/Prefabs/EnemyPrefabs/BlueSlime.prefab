@@ -106,7 +106,7 @@ MonoBehaviour:
   deathEffect: {fileID: 247893199728131866, guid: f752b2b8fb3a07847a4b4d3cf3d6636c, type: 3}
   thisLoot: {fileID: 11400000, guid: 6b26c54ade096b7468f7051ddbed4411, type: 2}
   target: {fileID: 0}
-  chaseRadius: 5
+  chaseRadius: 15
   attackRadius: 0
   homePosition: {fileID: 0}
   anim: {fileID: 0}
