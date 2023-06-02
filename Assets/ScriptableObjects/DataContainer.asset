@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4263653be4f753d44982815a593ff2de, type: 3}
   m_Name: DataContainer
   m_EditorClassIdentifier: 
-  coins: 1
+  coins: 3
   upgrades:
   - persistentUpgrades: 0
-    costToUpgrade: 0
+    costToUpgrade: 500
     level: 0
-  - persistentUpgrades: 0
-    costToUpgrade: 0
+  - persistentUpgrades: 1
+    costToUpgrade: 100
     level: 0

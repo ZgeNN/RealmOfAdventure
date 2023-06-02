@@ -12,4 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789fb749adfc366479837aeea005cbf5, type: 3}
   m_Name: StageData
   m_EditorClassIdentifier: 
-  stageEvents: []
+  stageEvents:
+  - time: 5
+    message: Stage 1 Completed
+    enemyToSpawn: {fileID: 1353987243936055206, guid: e3275482b8825e9409e1cc21ae88257f, type: 3}
+    count: 10
+  - time: 20
+    message: Stage 2 Completed
+    enemyToSpawn: {fileID: 1353987243936055206, guid: debd123690a4cec4cb8160f47618a194, type: 3}
+    count: 5
+  - time: 45
+    message: Stage 3 Completed
+    enemyToSpawn: {fileID: 1353987243936055206, guid: 3a7c785887f1d9549bd7cb6f5afd2558, type: 3}
+    count: 5
+  - time: 60
+    message: Stage 4 Completed
+    enemyToSpawn: {fileID: 1353987243936055206, guid: 3a7c785887f1d9549bd7cb6f5afd2558, type: 3}
+    count: 5
