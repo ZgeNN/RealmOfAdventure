@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 2895363495
+    locked: 0
+  - name: Enemy
+    uniqueID: 2861789261
+    locked: 0
+  - name: Player
+    uniqueID: 714916555
+    locked: 0
+  - name: Collectables
+    uniqueID: 2400156373
+    locked: 0
+  - name: Arrows
+    uniqueID: 485885813
     locked: 0
