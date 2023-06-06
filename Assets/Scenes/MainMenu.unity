@@ -2750,7 +2750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f8a61af6d3816147901c8126c472a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgrade: 0
+  upgrade: 1
   upgradeName: {fileID: 1696549838}
   upgradePrice: {fileID: 896693977}
   upgradeLevel: {fileID: 1132284348}
@@ -2988,7 +2988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2080452591
 RectTransform:
   m_ObjectHideFlags: 0

@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class KnightBoss : Log
 {
+    
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        myRigidbody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        target = GameObject.FindWithTag("Player").transform;
     }
 
     // Update is called once per frame
@@ -56,7 +60,7 @@ public class KnightBoss : Log
    {
        currentState = EnemyState.attack;
        anim.SetBool("Attack", true);
-       yield return new WaitForSeconds(0.5f);
+       yield return new WaitForSeconds(1f);
        currentState = EnemyState.walk;
        anim.SetBool("Attack", false);
    }

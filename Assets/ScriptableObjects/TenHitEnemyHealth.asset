@@ -9,14 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4263653be4f753d44982815a593ff2de, type: 3}
-  m_Name: DataContainer
+  m_Script: {fileID: 11500000, guid: fb0185b83ce8a9548aa666b6a71c7179, type: 3}
+  m_Name: TenHitEnemyHealth
   m_EditorClassIdentifier: 
-  coins: 179
-  upgrades:
-  - persistentUpgrades: 0
-    costToUpgrade: 500
-    level: 0
-  - persistentUpgrades: 1
-    costToUpgrade: 100
-    level: 0
+  initialValue: 10
+  RuntimeValue: 10

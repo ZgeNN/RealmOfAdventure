@@ -11,7 +11,7 @@ public class Log : Enemy {
     public Transform homePosition;
     public Animator anim;
 
-
+    
 	// Use this for initialization
 	void Start () {
         currentState = EnemyState.idle;
