@@ -98,13 +98,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  maxHealth: {fileID: 11400000, guid: ab397cefe172ea248a7c40db7da28e4a, type: 2}
+  maxHealth: {fileID: 11400000, guid: 62f2349fb59da7d44a02ade2d7aefd1a, type: 2}
   health: 2
   enemyName: BlueSlime
   baseAttack: 1
   moveSpeed: 1.5
   deathEffect: {fileID: 247893199728131866, guid: f752b2b8fb3a07847a4b4d3cf3d6636c, type: 3}
   thisLoot: {fileID: 11400000, guid: 6b26c54ade096b7468f7051ddbed4411, type: 2}
+  myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 15
   attackRadius: 0
