@@ -102,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 4
   knockTime: 0.2
-  playerDamage: 0
+  playerDamage: 1
   enemyDamage: 1
   dataContainer: {fileID: 11400000, guid: dc726c08b3a9f11468e55178d122e0e1, type: 2}
 --- !u!212 &1353180483022323914
